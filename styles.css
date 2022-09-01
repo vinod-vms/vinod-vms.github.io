@@ -64,13 +64,41 @@ section>a:hover {
 text-decoration:underline;
 text-decoration-color:#0F9D58;
 }
+
+article.second {
+    min-height:156px;
+}
 .style-padding {
     padding-top:20px;
 }
 footer {
 margin-top:100px;
 }
+@media all and (max-width:1100px){
+    article.second {
+        min-height:170px;
+    }
+}
+@media all and (max-width:1000px){
+    article.second {
+        min-height:180px;
+    }
+}
+@media all and (max-width:950px){
+    article.second {
+        min-height:240px;
+    }
+}
+@media all and (max-width:880px){
+    article.second {
+        min-height:280px;
+    }
+}
 @media all and (max-width:768px) {
+    article.second {
+    min-height:auto;
+    
+    }
     #myUl {
         font-size:1em;
     }
