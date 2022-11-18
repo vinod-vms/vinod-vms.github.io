@@ -97,6 +97,10 @@ margin-top:100px;
     }
 }
 @media all and (max-width:768px) {
+
+    .desktop-only {
+        display:none
+    }
       
     article.second {
     min-height:auto;
