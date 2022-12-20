@@ -215,8 +215,8 @@ font-size:0.8em;
 @media all and (max-width:250px) {
     
     span.navbar-toggler-icon {
-    height:7.5px;
-    width:7.5px;
+    height:5px;
+    width:5px;
     text-align:center;
     line-height:100%;
     vertical-align:middle;
