@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://vinod.cf/sitemap.xml
