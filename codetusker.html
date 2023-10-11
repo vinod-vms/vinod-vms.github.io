@@ -4,9 +4,16 @@
   <script>
     // Extract the path after "/codetusker"
     var path = window.location.pathname.substr('/codetusker'.length);
+// Redirect to "codetusker.vinod.cf" with the extracted path
+
+if ('codetusker'.length != 0){ 
     
-    // Redirect to "codetusker.vinod.cf" with the extracted path
     window.location.href = "https://vinod.cf/codetusker" + path;
+}
+else {
+
+window.location.href = "https://vinod.cf/codetusker";
+}
   </script>
 </head>
 <body>
